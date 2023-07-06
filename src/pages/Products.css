@@ -1,0 +1,238 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .product-item {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .product-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .product-item p {
+    font-weight: bold;
+  }
+
+ 
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-container {
+    position: relative;
+    height: 60vh; /* Adjust the height as desired */
+    overflow: hidden;
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .slider-button.left {
+    left: 10px;
+  }
+  
+  .slider-button.right {
+    right: 10px;
+  }
+  
+  .start-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+
+  .dialog form {
+    margin-top: 10px;
+  }
+  
+  .dialog button {
+    margin-top: 10px;
+  }
+  
+  
+  .dialog-content {
+    text-align: center;
+  }
+  
+  .dialog-content form {
+    margin-top: 20px;
+  }
+  
+  .dialog-content form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .dialog-content form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .dialog-content form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  .Products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  .product-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dialog-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .confirmation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .confirmation h2 {
+    margin-bottom: 10px;
+  }
+  
+  .confirmation p {
+    margin-bottom: 5px;
+  }
+  
+  .confirmation ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .confirmation li {
+    margin-bottom: 5px;
+  }
+  
+  .confirmation button {
+    margin-top: 10px;
+  }
+  
+  
+  .dialog input[type="text"],
+  .dialog select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .dialog button {
+    margin-top: 10px;
+  }
+  
+  .product-info {
+    height: 100px; /* Adjust the height as needed */
+    overflow: auto;
+  }
+  
+  
+ 
+  
